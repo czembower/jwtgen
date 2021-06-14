@@ -1,3 +1,9 @@
+// Repository: github.com/czembower/jwtgen
+// Copyright 2021 Chris Zembower
+// Author: Chris Zembower
+// Email: czembower@gmail.com
+// License: Apache-2.0
+
 package main
 
 import (

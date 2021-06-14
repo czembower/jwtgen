@@ -13,6 +13,8 @@ are generated and exported to the filesystem path specified by the `--outdir` pa
 
 ## Usage
 
+`go run jwtgen.go [args]`
+
 jwtgen arguments:
 *  `-audience` \[string\]
     	jwt token audience (default "audience")
