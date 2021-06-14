@@ -9,7 +9,7 @@
 
 ## Description
 
-A command-line utility to create signed and encrypted JWT tokens with support for private claims. Utilizes the fantastic go-jose library from Square: https://github.com/square/go-jose\
+A command-line utility to create signed and encrypted JWT tokens with support for private claims. Utilizes the fantastic go-jose library from Square: https://github.com/square/go-jose \
 A public key pem file (`public.pem`), encryption key (`.sek`), and JWT token (`token`) are generated and exported to the filesystem path specified by the ```--outdir``` parameter.
 
 ## Usage
