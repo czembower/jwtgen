@@ -13,7 +13,8 @@ are generated and exported to the filesystem path specified by the `--outdir` pa
 
 ## Usage
 
-`go run jwtgen.go [args]`
+```git clone https://github.com/czembower/jwtgen.git && cd jwtgen && go get -d ./... && go build```\
+```./jwtgen [args]```
 
 jwtgen arguments:
 *  `-audience` \[string\]
@@ -23,7 +24,7 @@ jwtgen arguments:
 *  `-issuer` \[string\]
     	jwt token issuer (default "issuer")
 *  `-outdir` \[string\]
-    	output directory to render assets (default "./")
+    	output directory to render assets (default "./output/")
 *  `-privateClaims` \[string\]
     	comma separated list of private claims in key=value format
 * `-subject` \[string\]

@@ -88,7 +88,7 @@ func createToken() {
 	flag.StringVar(&subject, "subject", "subject", "jwt token subject")
 	flag.StringVar(&audience, "audience", "audience", "jwt token audience")
 	flag.StringVar(&id, "id", "identifier", "jwt token id")
-	flag.StringVar(&outdir, "outdir", "./", "output directory to render assets")
+	flag.StringVar(&outdir, "outdir", "./output", "output directory to render assets")
 	flag.StringVar(&ttl, "ttl", "86400", "ttl of token in seconds")
 	flag.StringVar(&privateClaims, "privateClaims", "", "comma separated list of private claims in key=value format")
 	flag.Parse()
