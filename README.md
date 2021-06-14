@@ -8,8 +8,8 @@
 
 ## Description
 
-A command-line utility to create signed and encrypted JWT tokens with support for private claims. A public key pem file, encryption key, and JWT token
-are generated and exported to the filesystem path specified by the `--outdir` parameter.
+A command-line utility to create signed and encrypted JWT tokens with support for private claims.\
+A public key pem file (`public.pem`), encryption key (`.sek`), and JWT token (`token`) are generated and exported to the filesystem path specified by the ```--outdir``` parameter.
 
 ## Usage
 
